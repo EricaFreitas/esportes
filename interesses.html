@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Interesses</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="esportes.css">
+</head>
+<body>
+	<header>
+		<div class="cabeca">
+			<h1><img src="logo.png" id="sport"></h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="interesses.html">Interesses</a></li>
+					<li><a href="produtos.html">Produtos</a></li>
+				</ul>
+			</nav>
+	</header>
+	<div class="principal">
+		<h1 class="titulo-principal">Crie sua conta</h1>
+	<main>
+		<form>
+		<label for="nome"> Nome e Sobrenome</label>
+        <input type="text" id="nome" class="inputpadrao" required>
+
+        <label for="email"> Email</label>
+        <input type="email" id="email" class="inputpadrao" required placeholder="seuemail@dominio.com">
+
+        <label for="telefone" id="telefone"> Telefone</label>
+        <input type="tel" id="telefone" class="inputpadrao" required placeholder="(XX) XXXXX-XXXX">
+        
+		<h1 class="titulo-principal">Interesses de Esporte</h1>
+			<fieldset>
+				<legend>Que esportes mais gosta?</legend>
+				<input type="checkbox" name="esporte1" value="volei">Volêi<br>
+    			<input type="checkbox" name="esporte2" value="futebol">Futebol<br>
+    			<input type="checkbox" name="esporte3" value="basquete">Basquete<br>
+    			<input type="checkbox" name="esporte4" value="Atletismo">Atletismo<br>
+    			<input type="checkbox" name="esporte5" value="Badminton">Badminton<br>
+    			<input type="checkbox" name="esporte6" value="boliche">Boliche<br>
+    			<input type="checkbox" name="esporte7" value="handebol">Handebol<br>
+    			<input type="checkbox" name="esporte8" value="ciclismo">Ciclismo<br>
+    			<input type="checkbox" name="esporte9" value="judo">Judô<br>
+    			<input type="checkbox" name="esporte10" value="muaythai">Muay Thai<br>
+    			<input type="checkbox" name="esporte11" value="natacao">Natação<br>
+    			<input type="checkbox" name="esporte12" value="esgrima">Esgrima<br>
+			</fieldset>
+			<fieldset>
+          <legend>O que prefere comprar?</legend>
+          <label for="radio-roupa"><input type="radio" name="contato" value="roupas" id="roupas"> Roupas</label>
+
+          <label for="radio-acessórios"><input type="radio" name="contato" value="acessórios" id="acessórios"> Acessórios</label>
+
+        </fieldset>
+        <input type="submit" value="Enviar formulário" class="enviar">
+		</form>
+	</main>
+	<footer>
+			<img src="logo.png" id="rodape">
+			<p class="copyright">&copy; UOL Esportes</p>
+		</footer>
+
+</body>
+</html>

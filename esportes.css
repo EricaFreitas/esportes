@@ -69,3 +69,43 @@ footer{
 #equipamentos{
 	padding: 20px;
 }
+main{
+	width: 940px;
+	margin: auto;
+}
+form{
+	margin: 40px 0;
+	font-size: 20px;
+}
+form legend{
+	font-size: 25px;
+	margin: 0 0 15px;
+	padding: 10px;
+}
+form label{
+	display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+.inputpadrao{
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+.enviar{
+  width: 40%;
+  padding: 15px 0;
+  background: #F4A460;
+  color: #000000;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+}
+.enviar:hover {
+  background: #D2691E;
+  transform: scale(1.2);
+}
