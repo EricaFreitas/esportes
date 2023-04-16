@@ -29,4 +29,43 @@ nav a:hover{
 #sport{
 	width: 350px;	
 }
+.principal{
+	background: #F0E68C;
 
+}
+.titulo-principal{
+	text-align: center;
+	font-size: 45px;
+	font-weight: bold;
+	font-family: monospace;
+	padding: 30px;
+}
+.titulo-secundario{
+	text-align: center;
+	font-size: 33px;
+	font-weight: bold;
+	font-family: monospace;
+	padding: 15px;
+}
+#texto{
+	text-align: center;
+	font-size: 23px;
+	font-weight: inherit;
+	font-family: sans-serif;
+	padding: 10px;
+}
+#equipamentos{
+	height: 400px;
+	width: 700px;
+}
+footer{
+  text-align: center;
+  background: #F8BC32;
+  padding: 40px 0;
+}
+#rodape{
+	width: 200px;
+}
+#equipamentos{
+	padding: 20px;
+}
